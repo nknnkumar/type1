@@ -1,7 +1,7 @@
 {
   "kind": "SourceFile",
   "pos": 0,
-  "end": 84,
+  "end": 128,
   "children": [
     {
       "kind": "ImportDeclaration",
@@ -28,85 +28,90 @@
       ]
     },
     {
-      "kind": "FirstStatement",
+      "kind": "ImportDeclaration",
       "pos": 30,
-      "end": 64,
+      "end": 68,
       "children": [
         {
-          "kind": "VariableDeclarationList",
-          "pos": 30,
-          "end": 63,
+          "kind": "ImportClause",
+          "pos": 37,
+          "end": 46,
           "children": [
             {
-              "kind": "VariableDeclaration",
+              "kind": "NamedImports",
               "pos": 37,
-              "end": 63,
+              "end": 46,
               "children": [
                 {
-                  "kind": "Identifier",
-                  "pos": 37,
-                  "end": 44
-                },
-                {
-                  "kind": "CallExpression",
-                  "pos": 46,
-                  "end": 63,
+                  "kind": "ImportSpecifier",
+                  "pos": 39,
+                  "end": 44,
                   "children": [
                     {
-                      "kind": "PropertyAccessExpression",
-                      "pos": 46,
-                      "end": 61,
-                      "children": [
-                        {
-                          "kind": "Identifier",
-                          "pos": 46,
-                          "end": 54
-                        },
-                        {
-                          "kind": "Identifier",
-                          "pos": 55,
-                          "end": 61
-                        }
-                      ]
+                      "kind": "Identifier",
+                      "pos": 39,
+                      "end": 44
                     }
                   ]
                 }
               ]
             }
           ]
+        },
+        {
+          "kind": "StringLiteral",
+          "pos": 51,
+          "end": 67
         }
       ]
     },
     {
-      "kind": "ExportDeclaration",
-      "pos": 64,
-      "end": 84,
+      "kind": "ImportDeclaration",
+      "pos": 68,
+      "end": 127,
       "children": [
         {
-          "kind": "NamedExports",
-          "pos": 72,
-          "end": 83,
+          "kind": "ImportClause",
+          "pos": 75,
+          "end": 103,
           "children": [
             {
-              "kind": "ExportSpecifier",
-              "pos": 74,
-              "end": 81,
+              "kind": "NamedImports",
+              "pos": 75,
+              "end": 103,
               "children": [
                 {
-                  "kind": "Identifier",
-                  "pos": 74,
-                  "end": 81
+                  "kind": "ImportSpecifier",
+                  "pos": 77,
+                  "end": 101,
+                  "children": [
+                    {
+                      "kind": "Identifier",
+                      "pos": 77,
+                      "end": 84
+                    },
+                    {
+                      "kind": "Identifier",
+                      "pos": 87,
+                      "end": 101
+                    }
+                  ]
                 }
               ]
             }
           ]
+        },
+        {
+          "kind": "StringLiteral",
+          "pos": 108,
+          "end": 126
         }
       ]
     },
     {
       "kind": "EndOfFileToken",
-      "pos": 84,
-      "end": 84
+      "pos": 127,
+      "end": 128
     }
   ]
 }

@@ -1,4 +1,3 @@
 import express from 'express';
-console.log("HELLO");
-const router = express.Router();
-export { router };
+import { exec } from "child_process";
+import { router as routerFromapi } from './api/routes.js';

@@ -23,20 +23,14 @@ const newStatement = ts.factory.createExpressionStatement(
     )
 );
 
-const updatedSourceFile = ts.factory.updateSourceFile(
-    sourceFile,
-    ts.factory.createNodeArray([
-        sourceFile.statements[0],
-        newStatement,
-        sourceFile.statements[1],
-        ...sourceFile.statements.slice(2)
-    ])
-);
+const statement = sourceFile.statements[1];
 
-const printer = ts.createPrinter();
+const insertPosition1 = statement.getFullStart();
+const insertPosition = statement.getStart(sourceFile);
 
-const result = printer.printFile(updatedSourceFile);
-
-console.log(result);
+const result =
+    sourceFile.text.slice(0, insertPosition) +
+    'console.log("HELLO");\n\n' +
+    sourceFile.text.slice(insertPosition);
 
 fs.writeFileSync(filePath, result);
