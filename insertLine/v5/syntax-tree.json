@@ -1,0 +1,112 @@
+{
+  "kind": "SourceFile",
+  "pos": 0,
+  "end": 84,
+  "children": [
+    {
+      "kind": "ImportDeclaration",
+      "pos": 0,
+      "end": 30,
+      "children": [
+        {
+          "kind": "ImportClause",
+          "pos": 6,
+          "end": 14,
+          "children": [
+            {
+              "kind": "Identifier",
+              "pos": 6,
+              "end": 14
+            }
+          ]
+        },
+        {
+          "kind": "StringLiteral",
+          "pos": 19,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "kind": "FirstStatement",
+      "pos": 30,
+      "end": 64,
+      "children": [
+        {
+          "kind": "VariableDeclarationList",
+          "pos": 30,
+          "end": 63,
+          "children": [
+            {
+              "kind": "VariableDeclaration",
+              "pos": 37,
+              "end": 63,
+              "children": [
+                {
+                  "kind": "Identifier",
+                  "pos": 37,
+                  "end": 44
+                },
+                {
+                  "kind": "CallExpression",
+                  "pos": 46,
+                  "end": 63,
+                  "children": [
+                    {
+                      "kind": "PropertyAccessExpression",
+                      "pos": 46,
+                      "end": 61,
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "pos": 46,
+                          "end": 54
+                        },
+                        {
+                          "kind": "Identifier",
+                          "pos": 55,
+                          "end": 61
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ExportDeclaration",
+      "pos": 64,
+      "end": 84,
+      "children": [
+        {
+          "kind": "NamedExports",
+          "pos": 72,
+          "end": 83,
+          "children": [
+            {
+              "kind": "ExportSpecifier",
+              "pos": 74,
+              "end": 81,
+              "children": [
+                {
+                  "kind": "Identifier",
+                  "pos": 74,
+                  "end": 81
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "EndOfFileToken",
+      "pos": 84,
+      "end": 84
+    }
+  ]
+}
