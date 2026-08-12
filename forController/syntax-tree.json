@@ -1,0 +1,667 @@
+{
+  "kind": "SourceFile",
+  "pos": 0,
+  "end": 676,
+  "children": [
+    {
+      "kind": "ImportDeclaration",
+      "pos": 0,
+      "end": 52,
+      "children": [
+        {
+          "kind": "ImportClause",
+          "pos": 6,
+          "end": 31,
+          "children": [
+            {
+              "kind": "NamedImports",
+              "pos": 6,
+              "end": 31,
+              "children": [
+                {
+                  "kind": "ImportSpecifier",
+                  "pos": 8,
+                  "end": 29,
+                  "children": [
+                    {
+                      "kind": "Identifier",
+                      "pos": 8,
+                      "end": 18
+                    },
+                    {
+                      "kind": "Identifier",
+                      "pos": 21,
+                      "end": 29
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "StringLiteral",
+          "pos": 36,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "kind": "ImportDeclaration",
+      "pos": 52,
+      "end": 112,
+      "children": [
+        {
+          "kind": "ImportClause",
+          "pos": 60,
+          "end": 92,
+          "children": [
+            {
+              "kind": "NamedImports",
+              "pos": 60,
+              "end": 92,
+              "children": [
+                {
+                  "kind": "ImportSpecifier",
+                  "pos": 62,
+                  "end": 76,
+                  "children": [
+                    {
+                      "kind": "Identifier",
+                      "pos": 62,
+                      "end": 76
+                    }
+                  ]
+                },
+                {
+                  "kind": "ImportSpecifier",
+                  "pos": 77,
+                  "end": 90,
+                  "children": [
+                    {
+                      "kind": "Identifier",
+                      "pos": 77,
+                      "end": 90
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "StringLiteral",
+          "pos": 97,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "kind": "FirstStatement",
+      "pos": 112,
+      "end": 649,
+      "children": [
+        {
+          "kind": "VariableDeclarationList",
+          "pos": 112,
+          "end": 648,
+          "children": [
+            {
+              "kind": "VariableDeclaration",
+              "pos": 121,
+              "end": 648,
+              "children": [
+                {
+                  "kind": "Identifier",
+                  "pos": 121,
+                  "end": 129
+                },
+                {
+                  "kind": "ArrowFunction",
+                  "pos": 131,
+                  "end": 648,
+                  "children": [
+                    {
+                      "kind": "AsyncKeyword",
+                      "pos": 131,
+                      "end": 137
+                    },
+                    {
+                      "kind": "Parameter",
+                      "pos": 139,
+                      "end": 164,
+                      "children": [
+                        {
+                          "kind": "ObjectBindingPattern",
+                          "pos": 139,
+                          "end": 164,
+                          "children": [
+                            {
+                              "kind": "BindingElement",
+                              "pos": 140,
+                              "end": 144,
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "pos": 140,
+                                  "end": 144
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "BindingElement",
+                              "pos": 145,
+                              "end": 149,
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "pos": 145,
+                                  "end": 149
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "BindingElement",
+                              "pos": 150,
+                              "end": 162,
+                              "children": [
+                                {
+                                  "kind": "Identifier",
+                                  "pos": 150,
+                                  "end": 162
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "EqualsGreaterThanToken",
+                      "pos": 165,
+                      "end": 168
+                    },
+                    {
+                      "kind": "Block",
+                      "pos": 168,
+                      "end": 648,
+                      "children": [
+                        {
+                          "kind": "TryStatement",
+                          "pos": 170,
+                          "end": 645,
+                          "children": [
+                            {
+                              "kind": "Block",
+                              "pos": 179,
+                              "end": 330,
+                              "children": [
+                                {
+                                  "kind": "FirstStatement",
+                                  "pos": 181,
+                                  "end": 264,
+                                  "children": [
+                                    {
+                                      "kind": "VariableDeclarationList",
+                                      "pos": 181,
+                                      "end": 263,
+                                      "children": [
+                                        {
+                                          "kind": "VariableDeclaration",
+                                          "pos": 196,
+                                          "end": 263,
+                                          "children": [
+                                            {
+                                              "kind": "Identifier",
+                                              "pos": 196,
+                                              "end": 208
+                                            },
+                                            {
+                                              "kind": "AwaitExpression",
+                                              "pos": 210,
+                                              "end": 263,
+                                              "children": [
+                                                {
+                                                  "kind": "CallExpression",
+                                                  "pos": 216,
+                                                  "end": 263,
+                                                  "children": [
+                                                    {
+                                                      "kind": "Identifier",
+                                                      "pos": 216,
+                                                      "end": 224
+                                                    },
+                                                    {
+                                                      "kind": "ObjectLiteralExpression",
+                                                      "pos": 225,
+                                                      "end": 262,
+                                                      "children": [
+                                                        {
+                                                          "kind": "ShorthandPropertyAssignment",
+                                                          "pos": 226,
+                                                          "end": 251,
+                                                          "children": [
+                                                            {
+                                                              "kind": "Identifier",
+                                                              "pos": 226,
+                                                              "end": 251
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "ExpressionStatement",
+                                  "pos": 264,
+                                  "end": 323,
+                                  "children": [
+                                    {
+                                      "kind": "CallExpression",
+                                      "pos": 264,
+                                      "end": 322,
+                                      "children": [
+                                        {
+                                          "kind": "PropertyAccessExpression",
+                                          "pos": 264,
+                                          "end": 309,
+                                          "children": [
+                                            {
+                                              "kind": "CallExpression",
+                                              "pos": 264,
+                                              "end": 304,
+                                              "children": [
+                                                {
+                                                  "kind": "PropertyAccessExpression",
+                                                  "pos": 264,
+                                                  "end": 284,
+                                                  "children": [
+                                                    {
+                                                      "kind": "Identifier",
+                                                      "pos": 264,
+                                                      "end": 279
+                                                    },
+                                                    {
+                                                      "kind": "Identifier",
+                                                      "pos": 280,
+                                                      "end": 284
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "StringLiteral",
+                                                  "pos": 285,
+                                                  "end": 303
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "kind": "Identifier",
+                                              "pos": 305,
+                                              "end": 309
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "Identifier",
+                                          "pos": 310,
+                                          "end": 321
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "CatchClause",
+                              "pos": 330,
+                              "end": 645,
+                              "children": [
+                                {
+                                  "kind": "VariableDeclaration",
+                                  "pos": 338,
+                                  "end": 341,
+                                  "children": [
+                                    {
+                                      "kind": "Identifier",
+                                      "pos": 338,
+                                      "end": 341
+                                    }
+                                  ]
+                                },
+                                {
+                                  "kind": "Block",
+                                  "pos": 342,
+                                  "end": 645,
+                                  "children": [
+                                    {
+                                      "kind": "IfStatement",
+                                      "pos": 344,
+                                      "end": 444,
+                                      "children": [
+                                        {
+                                          "kind": "BinaryExpression",
+                                          "pos": 360,
+                                          "end": 388,
+                                          "children": [
+                                            {
+                                              "kind": "Identifier",
+                                              "pos": 360,
+                                              "end": 363
+                                            },
+                                            {
+                                              "kind": "InstanceOfKeyword",
+                                              "pos": 363,
+                                              "end": 374
+                                            },
+                                            {
+                                              "kind": "Identifier",
+                                              "pos": 374,
+                                              "end": 388
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "ReturnStatement",
+                                          "pos": 389,
+                                          "end": 444,
+                                          "children": [
+                                            {
+                                              "kind": "CallExpression",
+                                              "pos": 409,
+                                              "end": 443,
+                                              "children": [
+                                                {
+                                                  "kind": "PropertyAccessExpression",
+                                                  "pos": 409,
+                                                  "end": 430,
+                                                  "children": [
+                                                    {
+                                                      "kind": "CallExpression",
+                                                      "pos": 409,
+                                                      "end": 425,
+                                                      "children": [
+                                                        {
+                                                          "kind": "PropertyAccessExpression",
+                                                          "pos": 409,
+                                                          "end": 420,
+                                                          "children": [
+                                                            {
+                                                              "kind": "Identifier",
+                                                              "pos": 409,
+                                                              "end": 413
+                                                            },
+                                                            {
+                                                              "kind": "Identifier",
+                                                              "pos": 414,
+                                                              "end": 420
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "kind": "FirstLiteralToken",
+                                                          "pos": 421,
+                                                          "end": 424
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "Identifier",
+                                                      "pos": 426,
+                                                      "end": 430
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "PropertyAccessExpression",
+                                                  "pos": 431,
+                                                  "end": 442,
+                                                  "children": [
+                                                    {
+                                                      "kind": "Identifier",
+                                                      "pos": 431,
+                                                      "end": 434
+                                                    },
+                                                    {
+                                                      "kind": "Identifier",
+                                                      "pos": 435,
+                                                      "end": 442
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "IfStatement",
+                                      "pos": 444,
+                                      "end": 556,
+                                      "children": [
+                                        {
+                                          "kind": "BinaryExpression",
+                                          "pos": 460,
+                                          "end": 487,
+                                          "children": [
+                                            {
+                                              "kind": "Identifier",
+                                              "pos": 460,
+                                              "end": 463
+                                            },
+                                            {
+                                              "kind": "InstanceOfKeyword",
+                                              "pos": 463,
+                                              "end": 474
+                                            },
+                                            {
+                                              "kind": "Identifier",
+                                              "pos": 474,
+                                              "end": 487
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "kind": "ReturnStatement",
+                                          "pos": 488,
+                                          "end": 556,
+                                          "children": [
+                                            {
+                                              "kind": "CallExpression",
+                                              "pos": 508,
+                                              "end": 555,
+                                              "children": [
+                                                {
+                                                  "kind": "PropertyAccessExpression",
+                                                  "pos": 508,
+                                                  "end": 529,
+                                                  "children": [
+                                                    {
+                                                      "kind": "CallExpression",
+                                                      "pos": 508,
+                                                      "end": 524,
+                                                      "children": [
+                                                        {
+                                                          "kind": "PropertyAccessExpression",
+                                                          "pos": 508,
+                                                          "end": 519,
+                                                          "children": [
+                                                            {
+                                                              "kind": "Identifier",
+                                                              "pos": 508,
+                                                              "end": 512
+                                                            },
+                                                            {
+                                                              "kind": "Identifier",
+                                                              "pos": 513,
+                                                              "end": 519
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "kind": "FirstLiteralToken",
+                                                          "pos": 520,
+                                                          "end": 523
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "Identifier",
+                                                      "pos": 525,
+                                                      "end": 529
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "StringLiteral",
+                                                  "pos": 530,
+                                                  "end": 554
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "ExpressionStatement",
+                                      "pos": 556,
+                                      "end": 587,
+                                      "children": [
+                                        {
+                                          "kind": "CallExpression",
+                                          "pos": 556,
+                                          "end": 586,
+                                          "children": [
+                                            {
+                                              "kind": "PropertyAccessExpression",
+                                              "pos": 556,
+                                              "end": 581,
+                                              "children": [
+                                                {
+                                                  "kind": "Identifier",
+                                                  "pos": 556,
+                                                  "end": 575
+                                                },
+                                                {
+                                                  "kind": "Identifier",
+                                                  "pos": 576,
+                                                  "end": 581
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "kind": "Identifier",
+                                              "pos": 582,
+                                              "end": 585
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "kind": "ExpressionStatement",
+                                      "pos": 587,
+                                      "end": 638,
+                                      "children": [
+                                        {
+                                          "kind": "CallExpression",
+                                          "pos": 587,
+                                          "end": 637,
+                                          "children": [
+                                            {
+                                              "kind": "PropertyAccessExpression",
+                                              "pos": 587,
+                                              "end": 617,
+                                              "children": [
+                                                {
+                                                  "kind": "CallExpression",
+                                                  "pos": 587,
+                                                  "end": 612,
+                                                  "children": [
+                                                    {
+                                                      "kind": "PropertyAccessExpression",
+                                                      "pos": 587,
+                                                      "end": 607,
+                                                      "children": [
+                                                        {
+                                                          "kind": "Identifier",
+                                                          "pos": 587,
+                                                          "end": 600
+                                                        },
+                                                        {
+                                                          "kind": "Identifier",
+                                                          "pos": 601,
+                                                          "end": 607
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "kind": "FirstLiteralToken",
+                                                      "pos": 608,
+                                                      "end": 611
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "kind": "Identifier",
+                                                  "pos": 613,
+                                                  "end": 617
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "kind": "StringLiteral",
+                                              "pos": 618,
+                                              "end": 636
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ExportAssignment",
+      "pos": 649,
+      "end": 676,
+      "children": [
+        {
+          "kind": "Identifier",
+          "pos": 667,
+          "end": 675
+        }
+      ]
+    },
+    {
+      "kind": "EndOfFileToken",
+      "pos": 676,
+      "end": 676
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "kind": "SourceFile",
+  "pos": 0,
+  "end": 522,
+  "children": [
+    {
+      "kind": "ImportDeclaration",
+      "pos": 0,
+      "end": 37,
+      "children": [
+        {
+          "kind": "ImportClause",
+          "pos": 6,
+          "end": 15,
+          "children": [
+            {
+              "kind": "NamedImports",
+              "pos": 6,
+              "end": 15,
+              "children": [
+                {
+                  "kind": "ImportSpecifier",
+                  "pos": 8,
+                  "end": 13,
+                  "children": [
+                    {
+                      "kind": "Identifier",
+                      "pos": 8,
+                      "end": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "StringLiteral",
+          "pos": 20,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "kind": "ImportDeclaration",
+      "pos": 37,
+      "end": 66,
+      "children": [
+        {
+          "kind": "ImportClause",
+          "pos": 45,
+          "end": 52,
+          "children": [
+            {
+              "kind": "Identifier",
+              "pos": 45,
+              "end": 52
+            }
+          ]
+        },
+        {
+          "kind": "StringLiteral",
+          "pos": 57,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "kind": "ExpressionStatement",
+      "pos": 66,
+      "end": 99,
+      "children": [
+        {
+          "kind": "CallExpression",
+          "pos": 66,
+          "end": 99,
+          "children": [
+            {
+              "kind": "PropertyAccessExpression",
+              "pos": 66,
+              "end": 81,
+              "children": [
+                {
+                  "kind": "Identifier",
+                  "pos": 66,
+                  "end": 74
+                },
+                {
+                  "kind": "Identifier",
+                  "pos": 75,
+                  "end": 81
+                }
+              ]
+            },
+            {
+              "kind": "ObjectLiteralExpression",
+              "pos": 82,
+              "end": 98,
+              "children": [
+                {
+                  "kind": "PropertyAssignment",
+                  "pos": 83,
+                  "end": 96,
+                  "children": [
+                    {
+                      "kind": "Identifier",
+                      "pos": 83,
+                      "end": 88
+                    },
+                    {
+                      "kind": "StringLiteral",
+                      "pos": 89,
+                      "end": 96
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ImportDeclaration",
+      "pos": 99,
+      "end": 133,
+      "children": [
+        {
+          "kind": "ImportClause",
+          "pos": 109,
+          "end": 117,
+          "children": [
+            {
+              "kind": "Identifier",
+              "pos": 109,
+              "end": 117
+            }
+          ]
+        },
+        {
+          "kind": "StringLiteral",
+          "pos": 122,
+          "end": 132
+        }
+      ]
+    },
+    {
+      "kind": "ImportDeclaration",
+      "pos": 133,
+      "end": 195,
+      "children": [
+        {
+          "kind": "ImportClause",
+          "pos": 143,
+          "end": 171,
+          "children": [
+            {
+              "kind": "NamedImports",
+              "pos": 143,
+              "end": 171,
+              "children": [
+                {
+                  "kind": "ImportSpecifier",
+                  "pos": 145,
+                  "end": 169,
+                  "children": [
+                    {
+                      "kind": "Identifier",
+                      "pos": 145,
+                      "end": 152
+                    },
+                    {
+                      "kind": "Identifier",
+                      "pos": 155,
+                      "end": 169
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "StringLiteral",
+          "pos": 176,
+          "end": 194
+        }
+      ]
+    },
+    {
+      "kind": "ImportDeclaration",
+      "pos": 195,
+      "end": 237,
+      "children": [
+        {
+          "kind": "ImportClause",
+          "pos": 205,
+          "end": 217,
+          "children": [
+            {
+              "kind": "Identifier",
+              "pos": 205,
+              "end": 217
+            }
+          ]
+        },
+        {
+          "kind": "StringLiteral",
+          "pos": 222,
+          "end": 236
+        }
+      ]
+    },
+    {
+      "kind": "ImportDeclaration",
+      "pos": 237,
+      "end": 277,
+      "children": [
+        {
+          "kind": "ImportClause",
+          "pos": 245,
+          "end": 257,
+          "children": [
+            {
+              "kind": "Identifier",
+              "pos": 245,
+              "end": 257
+            }
+          ]
+        },
+        {
+          "kind": "StringLiteral",
+          "pos": 262,
+          "end": 276
+        }
+      ]
+    },
+    {
+      "kind": "FirstStatement",
+      "pos": 277,
+      "end": 302,
+      "children": [
+        {
+          "kind": "VariableDeclarationList",
+          "pos": 277,
+          "end": 302,
+          "children": [
+            {
+              "kind": "VariableDeclaration",
+              "pos": 286,
+              "end": 302,
+              "children": [
+                {
+                  "kind": "Identifier",
+                  "pos": 286,
+                  "end": 290
+                },
+                {
+                  "kind": "CallExpression",
+                  "pos": 292,
+                  "end": 302,
+                  "children": [
+                    {
+                      "kind": "Identifier",
+                      "pos": 292,
+                      "end": 300
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ExpressionStatement",
+      "pos": 302,
+      "end": 323,
+      "children": [
+        {
+          "kind": "CallExpression",
+          "pos": 302,
+          "end": 322,
+          "children": [
+            {
+              "kind": "Identifier",
+              "pos": 302,
+              "end": 317
+            },
+            {
+              "kind": "Identifier",
+              "pos": 318,
+              "end": 321
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "FirstStatement",
+      "pos": 323,
+      "end": 361,
+      "children": [
+        {
+          "kind": "VariableDeclarationList",
+          "pos": 323,
+          "end": 360,
+          "children": [
+            {
+              "kind": "VariableDeclaration",
+              "pos": 332,
+              "end": 360,
+              "children": [
+                {
+                  "kind": "ObjectBindingPattern",
+                  "pos": 332,
+                  "end": 341,
+                  "children": [
+                    {
+                      "kind": "BindingElement",
+                      "pos": 334,
+                      "end": 339,
+                      "children": [
+                        {
+                          "kind": "Identifier",
+                          "pos": 334,
+                          "end": 339
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "CallExpression",
+                  "pos": 343,
+                  "end": 360,
+                  "children": [
+                    {
+                      "kind": "Identifier",
+                      "pos": 343,
+                      "end": 355
+                    },
+                    {
+                      "kind": "Identifier",
+                      "pos": 356,
+                      "end": 359
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ExpressionStatement",
+      "pos": 361,
+      "end": 396,
+      "children": [
+        {
+          "kind": "CallExpression",
+          "pos": 361,
+          "end": 395,
+          "children": [
+            {
+              "kind": "PropertyAccessExpression",
+              "pos": 361,
+              "end": 372,
+              "children": [
+                {
+                  "kind": "Identifier",
+                  "pos": 361,
+                  "end": 368
+                },
+                {
+                  "kind": "Identifier",
+                  "pos": 369,
+                  "end": 372
+                }
+              ]
+            },
+            {
+              "kind": "StringLiteral",
+              "pos": 373,
+              "end": 379
+            },
+            {
+              "kind": "Identifier",
+              "pos": 380,
+              "end": 394
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "IfStatement",
+      "pos": 396,
+      "end": 519,
+      "children": [
+        {
+          "kind": "BinaryExpression",
+          "pos": 404,
+          "end": 439,
+          "children": [
+            {
+              "kind": "PropertyAccessExpression",
+              "pos": 404,
+              "end": 428,
+              "children": [
+                {
+                  "kind": "PropertyAccessExpression",
+                  "pos": 404,
+                  "end": 415,
+                  "children": [
+                    {
+                      "kind": "Identifier",
+                      "pos": 404,
+                      "end": 411
+                    },
+                    {
+                      "kind": "Identifier",
+                      "pos": 412,
+                      "end": 415
+                    }
+                  ]
+                },
+                {
+                  "kind": "Identifier",
+                  "pos": 416,
+                  "end": 428
+                }
+              ]
+            },
+            {
+              "kind": "EqualsEqualsEqualsToken",
+              "pos": 428,
+              "end": 432
+            },
+            {
+              "kind": "StringLiteral",
+              "pos": 432,
+              "end": 439
+            }
+          ]
+        },
+        {
+          "kind": "Block",
+          "pos": 440,
+          "end": 519
+        }
+      ]
+    },
+    {
+      "kind": "EmptyStatement",
+      "pos": 519,
+      "end": 520
+    },
+    {
+      "kind": "EndOfFileToken",
+      "pos": 520,
+      "end": 522
+    }
+  ]
+}
