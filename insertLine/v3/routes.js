@@ -1,4 +1,5 @@
 import express from 'express';
+
 const router = express.Router();
-console.log("HELLO");
+
 export { router };

@@ -26,8 +26,10 @@ const newStatement = ts.factory.createExpressionStatement(
 const updatedSourceFile = ts.factory.updateSourceFile(
     sourceFile,
     ts.factory.createNodeArray([
-        ...sourceFile.statements,
-        newStatement
+        sourceFile.statements[0],
+        sourceFile.statements[1],
+        newStatement,
+        ...sourceFile.statements.slice(2)
     ])
 );
 
